@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         miBoton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent datos = new Intent(MainActivity.this, Confirmacion.class);
-                datos.putExtra(Confirmacion.name,name.trim());
+                datos.putExtra(Confirmacion.nombre,name.trim());
                 datos.putExtra(Confirmacion.fechaNac,fechaNac);
                 datos.putExtra(Confirmacion.telefono,telefono.trim());
                 datos.putExtra(Confirmacion.email,email.trim());
